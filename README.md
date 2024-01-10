@@ -12,9 +12,9 @@ For this purpose the following steps and vector function in QGIS were used:
 - **Editing ids of new created polygons**, so that it is the same as one of the polygons to which it is adjacent
 - **Dissolve:** to dissolve polygons based on their unique ids
 
-- the technique can be seen here: https://www.youtube.com/watch?v=DMmGTtLx73M
-  (this technique was chosen for the purpose of the spatial autocorrelation calculation as the overlapping areas, because the area of the overlapping polygons was not even 1% of the Poland area,
-  so regardless of which neighboring polygon the overlapping layers were attached to, it should not affect the results).
+the technique can be seen here: https://www.youtube.com/watch?v=DMmGTtLx73M
+(this technique was chosen for the purpose of the spatial autocorrelation calculation as the overlapping areas, because the area of the overlapping polygons was not even 1% of the Poland area,
+so regardless of which neighboring polygon the overlapping layers were attached to, it should not affect the results).
 
 **Topography checker**
 ![QGIS_topography_checker_overlapping](https://github.com/mkupisie/Calculating-spatial-autocorrelation-of-income-pySAL-esda-geopandas/assets/130785524/bf433b4f-ee6e-4fa7-8256-87f2cd281f5e)
