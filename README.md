@@ -1,5 +1,5 @@
 ## Calculating global and spatial autocorrelation of income
-Calculating global and local spatial autocorrelation of income noted per each polish county in 2022 based on Moran's I and LISA statistics. Calculations were conducted using the following packages: pySAL, splot.esda, geopandas.
+Calculating global and local spatial autocorrelation of income (average monthly gross salary per capita) noted per each polish county in 2022 based on Moran's I and LISA statistics. Calculations were conducted using the following packages: pySAL, splot.esda, geopandas.
 The data that were used in the calculation were obtained from the Local Data Bank: https://bdl.stat.gov.pl/bdl/start. 
 Detailed steps of calculating spatial autocorrelation are described within the code.
 
