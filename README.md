@@ -1,7 +1,10 @@
 ## Calculating global and spatial autocorrelation of income
 Calculating global and local spatial autocorrelation of income (average monthly gross wages and salaries) noted per each polish county in 2022 based on Moran's I and LISA statistics. Calculations were conducted using the following packages: pySAL, splot.esda, geopandas.
+
 The data that were used in the calculation were obtained from the Local Data Bank: https://bdl.stat.gov.pl/bdl/start.
+
 More details about data can be found here: https://stat.gov.pl/en/metainformation/glossary/terms-used-in-official-statistics/693,term.html.
+
 Detailed steps of calculating spatial autocorrelation are described within the code.
 
 *Note: For the purpose of spatial autocorrelation calculation, the geometry of counties shapefile must have been fixed as it contained overlapping polygons (overlapping polygons could influence the results as in the calculation 'neighbour' was defined as any polygon that is sharing at least one common vertex of the border).*
